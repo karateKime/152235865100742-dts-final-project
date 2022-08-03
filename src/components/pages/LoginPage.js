@@ -6,7 +6,7 @@ import '../../App.css'
 export default function SignInPage() {
     return (
         <div className="text-center m-5-auto">
-            <h2>Sign in to us</h2>
+            <h2>Sign in</h2>
             <form action="/home">
                 <p>
                     <label>Username or email address</label><br/>
@@ -14,7 +14,7 @@ export default function SignInPage() {
                 </p>
                 <p>
                     <label>Password</label>
-                    <Link to="/forget-password"><label className="right-label">Forget password?</label></Link>
+                    <Link to="/lupa"><label className="right-label">Lupa Password ya?</label></Link>
                     <br/>
                     <input type="password" name="password" required />
                 </p>
