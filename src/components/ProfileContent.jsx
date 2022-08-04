@@ -10,14 +10,14 @@ import managedBtn from "../images/ManageBtn.png"
 import {Link} from "react-router-dom";
 
 const images = [murat, umut, kemal, cocuk, add];
-const profileName = ['Murat', 'Umut', 'Kemal', 'Cocuk', 'Other'];
+const profileName = ['A', 'B', 'C', 'D' , 'Other'];
 
 const ProfileContent = () => {
     return(
         <>
             <Box sx={{width:'100%', backgroundColor:'black'}}>
                 <Box sx={{marginBottom:'50px', textAlign:'center'}}> 
-                    <Typography variant='h2' sx={{color:'white'}}>Who’s watching?</Typography>
+                    <Typography variant='h2' sx={{color:'white'}}>SIAP NONTON?</Typography>
                 </Box>
 
                 <Link to="/login">
